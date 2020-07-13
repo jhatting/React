@@ -5,6 +5,15 @@ import Card from '../components/Card';
 import devgrub from '../assets/images/devgrub.png';
 import youtube from '../assets/images/youtube.png';
 import evverest from '../assets/images/evverest.png';
+
+import extFront from '../assets/images/extFront.png';
+import extLeft from '../assets/images/extLeft.png';
+import extRight from '../assets/images/extRight.png';
+
+import bathToilet from '../assets/images/bathToilet.png';
+import bathVanShow from '../assets/images/bathVanShow.png';
+import bathWashDry from '../assets/images/bathWashDry.png';
+
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 
@@ -16,25 +25,25 @@ class Carousel extends React.Component {
             items: [
                 {
                     id: 0,
-                    title: 'Dev Grub',
-                    subTitle: 'The cookbook for developers',
-                    imgSrc: devgrub,
+                    title: ' Exterior Large Bedroom Windows',
+                    subTitle: 'The container has 5 windows, allowing for great natural light all with custom cream lined curtains and tie backs:Three 8 x 8 foot sliding doors​ One 6 x 6 foot window One bay window They have a superior vinyl on the windows that are an excellent insulator, helping lower heating and cooling costs which means greater energy efficiency. All with screens to keep the bugs out when the doors/windows are open​',
+                    imgSrc: extRight,
                     link: 'https://devgrub.com',
                     selected: false
                 },
                 {
                     id: 1,
-                    title: 'Garrett Love',
-                    subTitle: 'YouTube channel',
-                    imgSrc: youtube,
+                    title: 'Exterior Window and Frames',
+                    subTitle: 'All windows and door frames are cut out. Next the wooden framing begins, this is to create the structure for the walls and floors. We also raise our floors slightly for plumbing purposes and to allow space to run all the electrical cables and pipes.',
+                    imgSrc: extFront,
                     link: 'https://www.youtube.com/channel/UCxSITxL2JbF229OGCqieVZw',
                     selected: false
                 },
                 {
                     id: 2,
-                    title: 'Evverest',
-                    subTitle: 'A social network for developers',
-                    imgSrc: evverest,
+                    title: 'Exterior Engine Room',
+                    subTitle: 'The utility room we created underneath the day bed and has easy access from the back of the home. No more exterior add ons,everything is now tucked away neatly in the utility room. 18,000 BTU Ductless mini split air conditioner with hidden compressor in the utility room. Hot and cold settings for all weather conditions. 85,000 BTU Propane Gas Portable Tankless Water Heater that allows for quick and easy hot water, stored in the utility room. Heating only when needed is eco-friendly and cost effective. 100amp Electrical Distribution Board 110 - 220V.',
+                    imgSrc: extLeft,
                     link: 'https://github.com/garrettlove8/evverest',
                     selected: false
                 },
@@ -55,10 +64,34 @@ class Carousel extends React.Component {
                     selected: false
                 },
                 {
-                    id: 5,
+                    id: 6,
                     title: 'Evverest',
                     subTitle: 'A social network for developers',
                     imgSrc: evverest,
+                    link: 'https://github.com/garrettlove8/evverest',
+                    selected: false
+                },
+                {
+                    id: 7,
+                    title: 'Dev Grub',
+                    subTitle: 'The cookbook for developers',
+                    imgSrc: bathVanShow,
+                    link: 'https://devgrub.com',
+                    selected: false
+                },
+                {
+                    id: 8,
+                    title: 'Garrett Love',
+                    subTitle: 'YouTube channel',
+                    imgSrc: bathToilet,
+                    link: 'https://www.youtube.com/channel/UCxSITxL2JbF229OGCqieVZw',
+                    selected: false
+                },
+                {
+                    id: 5,
+                    title: 'Evverest',
+                    subTitle: 'A social network for developers',
+                    imgSrc: bathWashDry,
                     link: 'https://github.com/garrettlove8/evverest',
                     selected: false
                 },

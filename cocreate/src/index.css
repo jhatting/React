@@ -12,11 +12,9 @@ code {
     monospace;
 }
 
-
 .g-card {
   margin: 20px;
 }
-
 
 .g-card-image {
   border-radius: 10px;
@@ -25,33 +23,27 @@ code {
   box-shadow: 0px 0px 3px 1px #ccc;
 }
 
-
 .g-card-info {
   margin-top: 10px;
   min-height: 100px;
 }
-
 
 .g-card-title {
   font-size: 24px;
   margin: 0px;
 }
 
-
 .g-card-sub-title {
   font-size: 16px;
   margin: 0px;
 }
-
 
 .success-msg {
   color: #57A773;
   padding: 10px 15px;
 }
 
-
 .err-msg {
   color: #EE6352;
   padding: 10px 15px;
 }
-

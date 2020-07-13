@@ -13,7 +13,7 @@ function Footer() {
                         Co-Create Containers
                     </Col>
                     <Col className="p-0 d-flex justify-content-end" md={3}>
-                        This site was made by Jarrod Hatting.
+                        This site was made using react, by Jarrod Hatting.
                     </Col>
                 </Row>
             </Container>

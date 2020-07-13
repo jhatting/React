@@ -24,7 +24,7 @@ class App extends React.Component {
         { title: 'Contact', path: '/contact' }
       ],
       home: {
-        title: 'FOR SALE $99K ',
+        title: 'FOR SALE $99K \n FURNISHED',
         subTitle: 'With optional Semi Truck, Trailer and Off-Grid Engery System.',
         text: 'Checkout my video for a detailed tour of the complete smart container home!! '
       },
