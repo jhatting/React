@@ -24,9 +24,9 @@ class App extends React.Component {
         { title: 'Contact', path: '/contact' }
       ],
       home: {
-        title: 'FOR SALE $99K \n FURNISHED',
-        subTitle: 'With optional Semi Truck, Trailer and Off-Grid Engery System.',
-        text: 'Checkout my video for a detailed tour of the complete smart container home!! '
+        title: 'Container Home',
+        subTitle: 'optional Off-Grid Engery System.',
+        text: 'Video for a detailed tour of the complete smart container home!! '
       },
       about: {
         title: 'About Me'
@@ -42,8 +42,17 @@ class App extends React.Component {
       <Router>
         <Container className="p-0" fluid={true}>
           
-          <Navbar className="border-bottom" bg="transparent" expand="lg">
-            <Navbar.Brand>Co-Create Containers</Navbar.Brand>
+  <Navbar bg="dark" variant="dark">
+    <Navbar.Brand href="#home">
+      <img
+        alt=""
+        src="/logo.svg"
+        width="30"
+        height="30"
+        className="d-inline-block align-top"
+      />{' '}
+      React Bootstrap
+    </Navbar.Brand>
 
             <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
             <Navbar.Collapse id="navbar-toggle">
