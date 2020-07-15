@@ -12,11 +12,15 @@ import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
 
+
+
+
 class App extends React.Component {
   
   constructor(props) {
     super(props);
     this.state = {
+      
       title: 'Co-Create Containers',
       headerLinks: [
         { title: 'Home', path: '/' },
@@ -25,8 +29,8 @@ class App extends React.Component {
       ],
       home: {
         title: 'Container Home',
-        subTitle: 'optional Off-Grid Engery System.',
-        text: 'Video for a detailed tour of the complete smart container home!! '
+        subTitle: 'with optional off-grid engery system.',
+        text: 'Detailed tour of the complete eco-friendly smart container home below!! '
       },
       about: {
         title: 'About Me'
@@ -42,16 +46,17 @@ class App extends React.Component {
       <Router>
         <Container className="p-0" fluid={true}>
           
-  <Navbar bg="dark" variant="dark">
-    <Navbar.Brand href="#home">
+          <Navbar bg="dark" variant="dark" className="border-bottom"  expand="lg">
+          <Navbar.Brand href="#home">
       <img
         alt=""
-        src="/logo.svg"
+        Src="./Logo.png"
         width="30"
         height="30"
         className="d-inline-block align-top"
+        class="img-responsive"
       />{' '}
-      React Bootstrap
+      
     </Navbar.Brand>
 
             <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
@@ -64,6 +69,7 @@ class App extends React.Component {
             </Navbar.Collapse>
           </Navbar>
 
+
           <Route path="/" exact render={() => <HomePage title={this.state.home.title} subTitle={this.state.home.subTitle} text={this.state.home.text} />} />
           <Route path="/about" render={() => <AboutPage title={this.state.about.title} />} />
           <Route path="/contact" render={() => <ContactPage title={this.state.contact.title} />} />
@@ -75,5 +81,7 @@ class App extends React.Component {
     );
   }
 }
+
+
 
 export default App;

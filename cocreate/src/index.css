@@ -47,3 +47,9 @@ code {
   color: #EE6352;
   padding: 10px 15px;
 }
+.img-responsive {
+  height: auto;
+  width: auto;
+  max-height: 72px;
+  max-width: 250px;
+}
